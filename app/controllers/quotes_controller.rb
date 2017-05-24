@@ -7,10 +7,10 @@ class QuotesController < ApplicationController
     Quote.create(quote_params)
     redirect_to root_path
   end  
-  
+ 
   def about
   end
-  
+
   private
   
   def quote_params
